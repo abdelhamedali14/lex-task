@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <!-- google-fonts-imports -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+    <title>lexmodo-task</title>
+  </head>
+
+  <body>
+    <!-- NAV BAR SECTION -->
+    <nav></nav>
+
+    <!-- SEARCH AND FILTER SECTION -->
+    <section class="inputs-wrapper container">
+      <form action="#" class="search">
+        <img src="assets/Search.svg" alt="search icon" class="icons" />
+        <input
+          type="text"
+          placeholder="Find customers"
+          id="search_input"
+          class="search__input"
+          value=""
+        />
+      </form>
+      <div class="dropdown">
+        <button class="dropdown__btn">
+          <span class="sort">Filter by Name (A-Z)</span>
+          <img src="/assets/down-arrow.svg" alt="search icon" class="icon" />
+        </button>
+        <div class="dropdown__option">
+          <span class="a-z">Name (A-Z)</span>
+          <span class="z-a">Name (Z-A)</span>
+        </div>
+    </section>
+    <!-- USERS SECTION -->
+    <section class="container ">
+      <div id="users-wrapper">
+      </div>
+    </section>
+    <p id="noResultsMessage" >No results found</p>
+
+    <script src="main.js"></script>
+  </body>
+</html>
