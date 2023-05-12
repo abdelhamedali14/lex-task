@@ -119,8 +119,7 @@ input {
 .dropdown__icon {
   width: 1.5rem;
   height: 1.5rem;
-  margin-left: 1rem;
-  background-color: red;
+  margin-left: 0.5rem;
 }
 
 .dropdown {
