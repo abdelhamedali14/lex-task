@@ -57,7 +57,7 @@ const getRenderData = function (data) {
         <figcaption>
           <h3 class="name">${name}</h3>
           <p class="userName">${`@`}${username}</p>
-          <p class="catchPhrase">${company.catchPhrase}</p>
+          <p class="catchPhrase">"${company.catchPhrase}"</p>
         </figcaption>
       </figure>
         <ul class="user__info">

@@ -90,6 +90,17 @@ nav {
     width: 54.6rem;
   }
 }
+@media (min-width: 1024px) {
+  .search {
+    width: 42rem;
+  }
+}
+@media (min-width: 1450px) {
+  .search {
+    width: 54.6rem;
+  }
+}
+
 input {
   border: none;
   outline: none;
@@ -103,7 +114,7 @@ input {
 .icon {
   width: 1.6rem;
   height: 1.6rem;
-  margin-right: 1rem;
+  margin-right: 1.3rem;
 }
 
 .dropdown {
@@ -181,41 +192,42 @@ figure {
   justify-content: space-between;
   margin: 2.3rem 2.5rem 1.7rem 2.1rem;
   border-bottom: 1px solid #e8e8e8;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
 }
 
 .user__img {
-  height: 10, 9rem;
+  height: 10.9rem;
   width: 10.6rem;
-  border-radius: 50%;
+  border-radius: 7.1rem;
   object-fit: cover;
 }
 .user__info {
   list-style: none;
-  padding: 1rem 1rem 0.4rem 2rem;
+  padding: 0rem 1rem 0.4rem 2.4rem;
 }
 figcaption .name {
   font-weight: 500;
-  font-size: inherit;
-  line-height: 2.8rem;
-}
-figcaption .catchPhrase {
-  font-size: 1.3rem;
-  line-height: 1.8rem;
-  color: var(--catch-phrase-color);
+  font-size: 1.6rem;
+  padding: 0;
+  margin: 0;
 }
 figcaption .userName {
   font-size: 1.3rem;
   line-height: 2.5rem;
   color: var(--userName-color);
-  padding-bottom: 0.7rem;
+  margin-bottom: 0.3rem;
 }
-
+figcaption .catchPhrase {
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  color: var(--catch-phrase-color);
+  width: 70%;
+}
 .user__info li:not(.address),
 .user__info li:not(.company) {
   display: flex;
   align-items: center;
-  padding: 0.65rem 0rem;
+  padding-bottom: 1rem;
 }
 .user__info li p {
   line-height: 2.25rem;
@@ -223,8 +235,13 @@ figcaption .userName {
 }
 .address {
   display: flex;
-  padding-top: 1rem;
-  width: 85%;
+  padding-bottom: 1rem;
+  width: 65%;
+}
+
+.address p {
+  font-size: 1.4rem;
+  line-height: 2.25rem;
 }
 
 .address img,
@@ -235,15 +252,23 @@ li p:not(.email) {
   margin-left: 1rem;
   color: var(--name-color);
 }
+@media (min-width: 500px) {
+  .address{
+    width: 60%;
+  }
+
+}
+
 
 /* Tablets */
 @media (min-width: 640px) {
   #users-wrapper {
     flex-direction: row;
+    width: 100%;
     justify-content: space-between;
   }
   .user {
-    width: 40%;
+    width: 41%;
     max-height: 72.5rem;
   }
   figure {
@@ -255,17 +280,19 @@ li p:not(.email) {
 
   .user__img {
     width: 100%;
-    max-height: 28.9rem;
+    height: 28.9rem;
     border-radius: 0;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
     object-fit: cover;
     margin-bottom: 1.5rem;
   }
   figcaption {
-    padding: 1rem 1rem 0.4rem 2rem;
+    padding: 1rem 2rem 0rem 2rem;
   }
+
   figcaption .name {
     font-weight: 500;
-    font-size: inherit;
     font-size: 2.4rem;
     line-height: 2.8rem;
   }
@@ -273,6 +300,7 @@ li p:not(.email) {
     font-size: 1.6rem;
     line-height: 2.5rem;
     color: var(--catch-phrase-color);
+    width: 100%;
   }
   figcaption .userName {
     font-size: 1.6rem;
@@ -280,14 +308,18 @@ li p:not(.email) {
     color: var(--userName-color);
     padding-bottom: 0.7rem;
   }
+  .address {
+    width: 80%;
+  }
+
   .user__info li p {
     line-height: 2.5rem;
-    font-size: 1.4rem;
+    font-size: 1.6rem;
   }
 }
 @media (min-width: 1024px) {
   .user {
-    max-width: 30%;
+    max-width: 31%;
     max-height: 72.5rem;
     margin-bottom: 5rem;
   }
