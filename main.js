@@ -66,23 +66,23 @@ const getRenderData = function (data) {
             <p class="email">${email}</p>
           </li>
           <li class="address">
-            <img src="./assets/location.svg" alt="" />
+            <img src="./assets/location.svg" alt="address icon" />
              <p>${concatenatedAddresses}  </p>
           </li>
           <li>
-            <img src="./assets/telephone.svg" alt="" />
+            <img src="./assets/telephone.svg" alt=" phone icon" />
             <p >${phone}</p>
           </li>
           <li>
-            <img src="./assets/site.svg" alt="" />
+            <img src="./assets/site.svg" alt="website icon" />
             <p>${website}</p>
           </li>
           <li>
-            <img src="./assets/mail.svg" alt="" />
+            <img src="./assets/mail.svg" alt="mail icon " />
             <p>${company.name}</p>
           </li>
           <li class="company">
-              <img src="./assets/factory.svg" alt="" />
+              <img src="./assets/factory.svg" alt="company " />
               <p >${company.bs}</p>
             </li>
         </ul>
