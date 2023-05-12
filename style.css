@@ -117,8 +117,8 @@ input {
   margin-right: 1.3rem;
 }
 .dropdown__icon{
-  width: 1rem;
-  height: 0.5rem;
+  width: 1.6rem;
+  height: 1.6rem;
 
 }
 
@@ -216,7 +216,7 @@ figcaption .name {
   padding: 0;
   margin: 0;
 
-  
+
 }
 figcaption .userName {
   font-size: 1.3rem;
