@@ -121,6 +121,12 @@ input {
   height: 1.5rem;
   margin-left: 0.5rem;
 }
+.search__icon{
+  width: 1.6rem;
+  height: 1.6rem;
+  margin-right: 1rem;
+
+}
 
 .dropdown {
   position: relative;
