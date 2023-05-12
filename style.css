@@ -116,12 +116,11 @@ input {
   height: 1.6rem;
   margin-right: 1.3rem;
 }
-.dropdown__icon{
+.dropdown__icon {
   width: 1.5rem;
   height: 1.5rem;
   margin-left: 1rem;
-  fill: #5C5F62 !important;
-
+  background-color: red;
 }
 
 .dropdown {
@@ -217,8 +216,6 @@ figcaption .name {
   font-size: 1.6rem;
   padding: 0;
   margin: 0;
-
-
 }
 figcaption .userName {
   font-size: 1.3rem;
@@ -262,12 +259,10 @@ li p:not(.email) {
   color: var(--name-color);
 }
 @media (min-width: 500px) {
-  .address{
+  .address {
     width: 60%;
   }
-
 }
-
 
 /* Tablets */
 @media (min-width: 640px) {
@@ -310,7 +305,6 @@ li p:not(.email) {
     line-height: 2.5rem;
     color: var(--catch-phrase-color);
     width: 100%;
-     
   }
   figcaption .userName {
     font-size: 1.6rem;
