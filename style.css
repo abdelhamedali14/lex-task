@@ -215,6 +215,8 @@ figcaption .name {
   font-size: 1.6rem;
   padding: 0;
   margin: 0;
+
+  
 }
 figcaption .userName {
   font-size: 1.3rem;
@@ -300,7 +302,6 @@ li p:not(.email) {
     font-weight: 500;
     font-size: 2.4rem;
     line-height: 2.8rem;
-    background-color: transparent;
   }
   figcaption .catchPhrase {
     font-size: 1.6rem;
